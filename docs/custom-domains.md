@@ -51,17 +51,17 @@ Add an **A record** at your domain registrar pointing to our server:
 
 | Type | Name/Host | Value |
 |------|-----------|-------|
-| A | `@` (or your subdomain) | `137.66.31.203` |
+| A | `@` (or your subdomain) | `188.93.151.212` |
 
 **For root domains (yourdomain.com):**
 - Type: `A`
 - Name/Host: `@`
-- Value: `137.66.31.203`
+- Value: `188.93.151.212`
 
 **For subdomains (www.yourdomain.com):**
 - Type: `A`
 - Name/Host: `www`
-- Value: `137.66.31.203`
+- Value: `188.93.151.212`
 
 ### Step 4: Verify Your Domain
 
@@ -98,7 +98,7 @@ Track your domain's status in the settings:
 **Possible causes:**
 
 1. **DNS not propagated yet** - Wait up to 48 hours
-2. **Wrong IP address** - Verify you entered `137.66.31.203`
+2. **Wrong IP address** - Verify you entered `188.93.151.212`
 3. **Wrong record type** - Must be an A record
 4. **Conflicting records** - Remove other A records for the same name
 
@@ -107,7 +107,7 @@ Track your domain's status in the settings:
 1. Visit [dnschecker.org](https://dnschecker.org)
 2. Enter your domain
 3. Select "A" record type
-4. Verify it shows `137.66.31.203`
+4. Verify it shows `188.93.151.212`
 
 ### SSL Certificate Issues
 
@@ -186,7 +186,7 @@ Yes, SSL certificates are automatically provisioned and renewed. All traffic is 
 
 **Can I use a subdomain?**
 
-Yes, any subdomain works (www, app, blog, etc.). Use an A record pointing to `137.66.31.203`.
+Yes, any subdomain works (www, app, blog, etc.). Use an A record pointing to `188.93.151.212`.
 
 **Will this affect my email?**
 
